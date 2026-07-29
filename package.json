@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "eslint",
     "test": "vitest run",
     "codegen": "openapi-typescript ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000/api/v1}/../openapi.json -o src/types/api.generated.ts"
