@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/836-sidebar-strict-typing",
+    "frontend",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/836-sidebar-strict-typing": "main",
+    "frontend": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/836-sidebar-strict-typing",
+    "frontend",
+    "origin"
+  ]
+}
